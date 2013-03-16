@@ -1,0 +1,18 @@
+<html>
+<head>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+<applet id="a1" code="LabelPrinter.class" archive="sLabelPrinter.jar" width="100" height="100">
+<param name="PrinterName" value=".*Smart.*" />
+<param name="MaxFontSize" value="14" />
+</applet>
+<textarea rows="5" id="t1" />Jane Doe
+911 Emergency Ave
+Nowhere MN 55555-4321
+USA
+555/ 555-1212</textarea>
+<button id="b1" onclick="document.getElementById('a1').print_label(document.getElementById('t1').value)">TEST</button>
+</body>
+</html>

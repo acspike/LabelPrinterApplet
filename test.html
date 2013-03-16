@@ -1,0 +1,12 @@
+<html>
+<head>
+<script type="text/javascript">
+</script>
+</head>
+<body>
+<applet id="a1" code="LabelPrinter.class" archive="LabelPrinter.jar" width="10" height="10">
+<param name="PrinterName" value=".*Smart Label.*" />
+</applet>
+<button id="b1" onclick="document.getElementById('a1').print_label('test is this')">TEST</button>
+</body>
+</html>

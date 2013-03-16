@@ -1,0 +1,1 @@
+set PATH=%PATH%;C:\Sun\AppServer\jdk\bin
