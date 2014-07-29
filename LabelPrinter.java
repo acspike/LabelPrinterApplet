@@ -57,7 +57,7 @@ public class LabelPrinter extends Applet {
         public void paint(Graphics g) {
             Graphics2D g2d = (Graphics2D)g;
             
-            Rectangle2D.Float r = (Rectangle2D.Float)g2d.getClip();
+            Rectangle2D.Double r = (Rectangle2D.Double)g2d.getClip();
             
             g2d.translate(r.getWidth(),0.0);
             g2d.rotate(Math.PI/2.0);
