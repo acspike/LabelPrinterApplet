@@ -1,0 +1,4 @@
+Permissions: all-permissions
+Codebase: https://www.example.com
+Application-Name: Label Printer Applet
+Caller-Allowable-Codebase: www.example.com 127.0.0.1
