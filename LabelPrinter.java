@@ -210,5 +210,6 @@ public class LabelPrinter extends Applet {
         
         PrivilegedPrint pp = new PrivilegedPrint(job, doc, aset);
         AccessController.doPrivileged((PrivilegedAction<Object>)pp);
+		System.out.println("Finished");
     }
 }
