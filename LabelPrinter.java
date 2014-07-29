@@ -201,7 +201,7 @@ public class LabelPrinter extends Applet {
         
         DocPrintJob job = service.createPrintJob();
         
-        Doc doc = new SimpleDoc(label, flavor, null); 
+        Doc doc = new SimpleDoc(label, flavor, null);
         
         HashPrintRequestAttributeSet aset = new HashPrintRequestAttributeSet();
         MediaPrintableArea pa = new MediaPrintableArea(.15f,.2f,1f,3.2f,MediaPrintableArea.INCH);
