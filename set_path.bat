@@ -1,1 +1,1 @@
-set PATH=%PATH%;C:\Program Files (x86)\Java\jdk1.8.0_11\bin
+set PATH=%PATH%;C:\Program Files (x86)\Java\jdk1.7.0_65\bin
