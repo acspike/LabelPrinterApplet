@@ -1,4 +1,5 @@
 addToManifest.txt
-keystore
+*.jks
 *.class
 *.jar
+*.pfx
